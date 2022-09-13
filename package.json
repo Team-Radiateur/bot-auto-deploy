@@ -1,0 +1,23 @@
+{
+  "name": "auto_deploy_to_pterodactyl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/src/index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Christophe 'DrakeXorn' Bernard <me@christophebernard.be>",
+  "license": "MIT",
+  "dependencies": {
+    "lmadactyl": "1.2.4",
+    "dotenv": "16.0.2"
+  },
+  "devDependencies": {
+    "prettier-eslint": "15.0.1",
+    "prettier": "2.7.1",
+    "eslint": "8.23.1",
+    "eslint-plugin-prettier": "4.2.1"
+  }
+}
